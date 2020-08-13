@@ -1,0 +1,18 @@
+#assets
+DirectoryIndex disabled
+# turns on rewriteEngine
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?abideyouth.cf.*$ [NC]
+RewriteRule \.(gif|jpg|pdf|txt|png|jpeg|)$ - [F]
+
+
+
+# http://www.htaccesstools.com/hotlink-protection/  Matches any single character then * 	Repeats the previous match zero or more times then $  	The other anchor, this matches the end of the string.
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]
+#alows PHP sessions be continued over redirect
+php_flag output_buffering on
+  # this is for the Error page
+ErrorDocument 404 /assets/Error.php
+ErrorDocument 403 /assets/Error.php

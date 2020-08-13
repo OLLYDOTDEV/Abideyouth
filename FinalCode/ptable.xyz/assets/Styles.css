@@ -1,0 +1,620 @@
+/*https://scrimba.com/p/pWqLHa*/
+/* fonts */
+/*<link rel="stylesheet" href="https://use.typekit.net/bvh6eke.css">*/
+
+/*main css*/
+html, body {
+margin:0px;
+width: 100%;
+height:100%;
+font-size: 5vh;
+background-color: #FEFBEF ;
+
+}
+.form-container, .btn,.form-popup,input  {box-sizing: border-box;}
+
+/*Home page*/
+  /*Home middle layout */
+.Navmiddle{
+  font-size: 19px;
+  padding-bottom: 14px;
+margin-top: 0px;
+margin-bottom:0px;
+}
+.AboutHomeParagraph{
+grid-area: P;
+
+height:auto;
+width:auto;
+}
+.AboutHomeParagraphtext{
+/*add fonts*/
+}
+
+.AboutHomeParagraphtext{
+font-size:43%;
+line-height:2.4;
+display: block;
+text-align:justify ;
+
+}
+
+.AboutHomeyouthBrief{
+grid-area: A;
+
+height:auto;
+width:auto;
+/*flex box*/
+
+ display: flex;
+
+ flex-direction:column ;
+align-items: flex-start;
+}
+.AboutHomeyouthBrieftitle {
+
+}
+.AboutHomeyouthBrieftext {
+  font-size:43%;
+  line-height:2.4;
+  display: block;
+  text-align:justify ;
+}
+
+.videohome{
+  grid-area: V;
+  height:auto;
+  width:auto;
+/*flex box*/
+ display: flex;
+ flex-direction:column ;
+align-items: flex-start;
+}
+.Vidoehometitle {
+
+}
+.Vidoehometext {
+  font-size:43%;
+  line-height:2.4;
+  display: block;
+  text-align:justify ;
+}
+
+.SocialMediaHome{
+grid-area: S;
+
+height:auto;
+width:auto;
+/*flex box*/
+ display: flex;
+ flex-direction:column ;
+align-items: flex-start;
+}
+.SocialMediaHometitle {
+
+}
+
+.SocialMediaHometext {
+  font-size:43%;
+  line-height:2.4;
+  display: block;
+  text-align:justify ;
+}
+.Calendarupcominghomeevents{
+grid-area: C;
+
+height:auto;
+width:auto;
+/*flex box*/
+
+ display: flex;
+
+ flex-direction:column ;
+align-items: flex-start;
+}
+.Calendarupcominghomeeventstitle {
+
+}
+.Calendarupcominghomeeventstext {
+  font-size:43%;
+  line-height:2.4;
+  display: block;
+  text-align:justify ;
+}
+.Calendarmiddlebuttonconcontainer{ /*@mobile center and expand width*/
+   display: flex;
+   flex-direction:row ;
+  align-items: flex-end;
+  height: 10%;
+  width:100%;
+  background-color: #FEFBEF ;
+}
+.Calendarmiddlehomebuttons{
+  height:6.7vh;
+  width:10vw;
+  max-width: 129px;
+  max-height: 53px;
+  text-align: center;
+    border: 2px solid black;
+    font-size: 1vh;
+    margin-bottom: 18px;
+  background-color: #FEFBEF ;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: .25em;
+    letter-spacing: .1vw;
+}
+.Calendarmiddlehomebuttons:hover{
+ height:5.9vh;
+ width:10vw;
+ max-width: 129px;
+ max-height: 53px;
+ text-align: center;
+   border: 1.8px solid rgb(34, 34, 34);
+   font-size: 1vh;
+   margin-bottom: 18px;
+   background-color:rgb(34, 34, 34);
+   color:#FEFBEF;
+   font-size: 1vh;
+   margin-bottom: 18px;
+   display: flex;
+   align-items: center;
+   justify-content:center;
+   font-size: .25em;
+   letter-spacing: .1vw;
+}
+
+
+.middlebuttonconcontainer{ /*@mobile center and expand width*/
+   display: flex;
+   flex-direction:row ;
+  align-items: center;
+  height: 90%;
+  width:100%;
+}
+.Middlehomebuttons{
+  background-color: #FEFBEF ;
+  height:5.9vh;
+  width:12vw;
+  max-width: 129px;
+  max-height: 53px;
+  text-align: center;
+    border: 2px solid black;
+    font-size: 1vh;
+    margin-bottom: 18px;
+display: flex;
+align-items: center;
+justify-content:center;
+font-size: .25em;
+letter-spacing: .1vw;
+}
+.Middlehomebuttons:hover{
+  height:5.9vh;
+  width:10vw;
+  max-width: 129px;
+  max-height: 53px;
+  text-align: center;
+    border: 1.8px solid rgb(34, 34, 34);
+    font-size: 1vh;
+    margin-bottom: 18px;
+    background-color:rgb(34, 34, 34);
+    color:#FEFBEF;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: .25em;
+    letter-spacing: .1vw;
+
+}
+/*About page*/
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+/*Header*/
+.Header{
+padding-top:1vw;
+padding-left:1.1vw;
+height:20vh;
+width: 98.1%;
+display: flex;
+}
+.VerticalHeightControlHeader{
+display: flex;
+align-content:center;
+flex-direction: row;
+width:100%;
+}
+a { text-decoration: none; color:black; }
+.nav{
+  align-self:flex-start;
+    overflow:visible;
+  width: 25%;
+display: flex;
+justify-content: flex-end;
+
+
+}
+.nav > div {
+
+  padding: 10px;
+  text-align: center;
+  font-size: .57em;
+  color:black;
+  padding-right: 50px;
+  /* letter-spacing: 0.01em */
+}
+
+
+a {
+  text-decoration: none;
+}
+a:link{
+color: black;
+}
+a:hover{
+ text-shadow: 1px 1px 3px black;
+}
+
+.videolinkspace{
+  display: flex;
+ flex-direction: column;
+ justify-content: center;
+ height: 80%;
+ width:100%;
+
+
+}
+.videolinktext{
+margin: auto;
+color:white;
+border: 2px solid black;
+padding: 10px 19px 10px 19px;
+}
+/* drop down for header  css in html*/
+/*https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_button*/
+@media only screen and (max-width: 450px){
+.nav {
+
+flex-wrap: wrap;
+  justify-content:center;
+}
+}
+.Abouttop{
+padding-left: 4vw;
+display: flex;
+height:auto;
+width:70%;
+flex-direction:row ;
+justify-content: center;
+overflow-wrap: break-word;
+
+}
+.FindUsTitle{
+  letter-spacing: 1px;
+  font-size: 1em;
+  margin-bottom: 0px;
+margin-right:100px;
+}
+.FindUsSpace{
+height: 6vh;
+}
+
+/*aboutAbide*/
+.AboutAbide{
+padding-left: 4vw;
+padding-right: 4vw;
+display: flex;
+height:auto;
+width:70%;
+flex-direction:column;
+justify-content: flex-end;
+overflow-wrap: break-word;
+  margin-right:0px;
+
+}
+.AboutAbidetitle{
+  letter-spacing: 1px;
+  font-size: 1em;
+  margin-bottom: 0px;
+}
+.AboutAbidetext{
+  font-size: .52em;
+  margin-bottom: 5.6vh;
+
+  color:rgb(72,72,72)  ;
+}
+
+
+.img2leaderpadding{
+padding-top:6vh;
+padding-bottom:6vh;
+
+
+}
+.img2leaderpadding2{
+padding-bottom:6vh;
+padding-top:6vh;
+}
+@media only screen and (max-width: 800px){
+.leader2about{
+
+  max-height:5px;
+
+}
+}
+
+
+@media only screen and (max-width: 800px){
+.leaderzone {
+
+      overflow: auto;
+      max-height: 800px;
+
+}
+}
+
+
+.leaderzone{
+  padding-top: 3vh;
+  height: auto;
+  width: 85%;
+  padding-left:7vw;
+  padding-right:7vw;
+  display:flex;
+  flex-direction: column;
+  padding-top: 9vw;
+  padding-bottom:  9vw;
+}
+.leader1{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+min-height: 14vw;
+}
+.leader1left{
+  background:url("img/Aboutpage/karl_smaller.png");
+  background-size: cover;
+   background-repeat: no-repeat;
+   width:11vw;
+   height: 11vw;
+   align-self: flex-end;
+}
+.leader2right{
+  display: flex;
+  flex-direction: column;
+
+
+}
+.leader1name{
+  font-size: .9em;
+  padding-bottom: 3vh;
+}
+.leader1text{
+    color:rgb(72,72,72);
+  font-size: .5em;
+  max-width: 63vw;
+}
+
+
+.leader2{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+min-height: 14vw;
+}
+.leader2right{
+  background:url("img/Aboutpage/deanna_smaller.png");
+  background-size: cover;
+   background-repeat: no-repeat;
+   width:11vw;
+   height: 11vw;
+   align-self: flex-end;
+}
+.leader2left{
+  display: flex;
+  flex-direction: column;
+
+
+}
+.leader2name{
+  font-size: .9em;
+  padding-bottom: 3vh;
+}
+.leader2text{
+    color:rgb(72,72,72);
+  font-size: .5em;
+  max-width: 63vw;
+}
+
+.leader3{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+min-height: 14vw;
+
+}
+.leader3left{
+  background:url("img/Aboutpage/francesca_smaller.png");
+  background-size: cover;
+   background-repeat: no-repeat;
+   width:11vw;
+   height: 11vw;
+   align-self: flex-end;
+}
+.leader3right{
+  display: flex;
+  flex-direction: column;
+
+
+}
+.leader3name{
+  font-size: .9em;
+  padding-bottom: 3vh;
+}
+.leader3text{
+    color:rgb(72,72,72);
+  font-size: .5em;
+  max-width: 63vw;
+}
+.leaderspacetop{
+  width:100%;
+  padding-bottom:95px;
+}
+.leaderspacebottom{
+  width:100%;
+  padding-bottom:22px;
+}
+.leader2about{
+  padding-bottom: 9vh;
+}
+
+
+
+
+
+
+
+ .about{
+   height: 60vh;
+ }
+
+/*Gallery page */
+
+@media only screen and (min-width: 700px){
+.frame { /* for desktops */
+    display: grid;
+    grid-gap: 2vh;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-auto-rows: 400px;
+    grid-auto-flow: dense;
+    padding-left: 9vh;
+    padding-right: 9vh;
+    padding-top: 3vh;
+    padding-bottom: 30vh;
+}
+}
+@media only screen and (max-width: 700px){
+  .frame { /* for mobile phone */
+      width: 100%;
+      display: grid;
+      grid-gap: 2vh;
+      grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+      grid-auto-rows: 400px;
+      grid-auto-flow: dense;
+      padding-top: 3vh;
+      padding-bottom: 30vh;
+  }
+}
+
+
+/*https://scrimba.com/p/pWqLHa/cBq3PsP*/
+
+
+.frame > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffeead;
+}
+
+.frame > div > img {
+  display: flex;
+    width: 100%;
+    height: 100%;
+    flex: 1 1 ;
+    object-fit: cover;
+}
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+
+
+
+
+ /*Footer*/
+
+ .Footer {
+padding-top: 3vw;
+padding-left: 3vh;
+   font-size: 25px;
+   background-color: rgb(16,8,0);
+   color: white;
+   min-height:20vh;
+   height: auto;
+   width: auto;
+   max-height: 200px;
+  max-width: 1920px;
+   display: grid;
+   grid-gap: 5px;
+   grid-template-columns:1fr 1fr 1fr 1fr;
+   grid-template-rows: 13vh 5vh;
+   grid-template-areas:
+   "LeftFooter MiddleFooter SpaceFooter RightFooter"
+   ". credit credit .";
+ }
+
+.LeftFooter{
+grid-area: LeftFooter;
+display: flex;
+flex-direction:column ;
+height: 100%;
+width:100%;
+justify-content: flex-end;
+}
+.MiddleFooter{
+  grid-area: MiddleFooter;
+ display: flex;
+align-content:flex-end;
+flex-direction: column;
+justify-content: flex-end;
+height: 100%;
+width:100%;
+}
+.SpaceFooter{
+grid-area: SpaceFooter;
+width: 100px
+}
+.RightFooter{
+grid-area: RightFooter;
+display: flex;
+flex-direction:column ;
+height: 100%;
+width:100%;
+justify-content: space-around;
+}
+
+
+.credit{
+grid-area: credit;
+/*text-decoration: underline;*/
+
+}
+.nomarginfooter{
+margin: 4px;
+}
+div > .whitefooter{
+color: white;
+}
+h6 > .whitefooter{
+color: white;
+}

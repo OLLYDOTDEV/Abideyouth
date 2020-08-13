@@ -1,0 +1,15 @@
+#calender
+DirectoryIndex disabled
+
+
+  # turns on rewriteEngine
+  RewriteRule \.(txt|json)$ - [F]
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME}\.php -f
+  RewriteRule ^(.*)$ $1.php [NC,L]
+
+  # this is for the Error page
+  ErrorDocument 404 /assets/Error.php
+  ErrorDocument 403 /assets/Error.php
+#alows PHP sessions be continued over redirect
+php_flag output_buffering on

@@ -1,0 +1,20 @@
+#home
+DirectoryIndex /home.php
+
+# Disable directory browsing
+Options All -Indexes
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]
+
+#mod_rewrite starts here  https://www.youtube.com/watch?v=-6LyG9I-FPc
+
+php_value upload_max_filesize 640000M
+php_value post_max_size 640000M
+#alows PHP sessions be continued over redirect
+php_flag output_buffering on
+# this is for the Error page
+ErrorDocument 404 /assets/Error.php
+ErrorDocument 403 /assets/Error.php

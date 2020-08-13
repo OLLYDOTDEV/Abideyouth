@@ -1,0 +1,9 @@
+Array
+(
+    [Title] => No upcomming Events
+    [Description: ] => currently there are no events programmed into the calendar for the foreseeable future
+    [Location] => Over The Rainbow
+    [Date of Event] => Never
+    [Started at] => -
+    [EndTime] => -
+)

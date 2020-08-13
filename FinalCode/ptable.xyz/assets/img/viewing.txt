@@ -1,0 +1,1 @@
+for imgs to work u must use sudo chmod 644 filename.png

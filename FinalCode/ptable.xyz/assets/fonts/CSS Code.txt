@@ -1,0 +1,33 @@
+Futura Medium
+
+font-family: futura-pt, sans-serif;
+font-weight: 500;
+font-style: normal;
+
+Futura Bold
+
+font-family: futura-pt-bold, sans-serif;
+font-weight: 900;
+font-style: normal;
+
+Bebas Neue
+
+font-family: bebas-neue, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Dolly Pro
+
+font-family: dolly-new, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Dolly Bold
+
+font-family: dolly-new, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+font-family: ff-market-web, sans-serif;
+font-weight: 700;
+font-style: normal;

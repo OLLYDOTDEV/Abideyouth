@@ -1,0 +1,9 @@
+#IMG's
+RewriteEngine on
+# Matches any single character then * 	Repeats the previous match zero or more times then $  	The other anchor, this matches the end of the string.
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?abideyouth.cf [NC]
+#keep the https ref if it is not from localhost it is not then deny access to file
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?abideyouth.cf.*$ [NC]
+RewriteRule \.(gif|jpg|pdf|txt|png|jpeg|)$ - [F]
+#alows PHP sessions be continued over redirect
+php_flag output_buffering on
